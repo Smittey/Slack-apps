@@ -17,10 +17,12 @@
 * Decide whether you want this command to show in the autocomplete list for slash commands.
 * If you do, enter a short description and usage hint.
 * Create an [incoming webhook](https://slack.com/apps/A0F7XDUAZ-incoming-webhooks)
-* Copy the **Webhook URL** into the clipboard and replace the following line with yours:
+* Copy the **Webhook URL** into the clipboard and replace the following line with yours
 
 
-    $webhookUrl = "https://hooks.slack.com/services/this-will-be-unique-to-your-webhook";
+
+
+`$webhookUrl = "https://hooks.slack.com/services/this-will-be-unique-to-your-webhook"`
 
 
 ### Usage
